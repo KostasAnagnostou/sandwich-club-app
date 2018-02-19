@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Wrap the Main Layout in a ScrollView -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.udacity.sandwichclub.DetailActivity">
+
+    <!-- LinearLayout Vertical - Main Layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- The Image of the Sandwich -->
+        <ImageView
+            android:id="@+id/image_iv"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/sandwich_picture_content_description"
+            android:scaleType="centerCrop" />
+
+        <!-- Also Known As Label -->
+        <TextView
+            android:id="@+id/also_known_as_label"
+            style="@style/LabelStyle"
+            android:text="@string/detail_also_known_as_label" />
+
+        <!-- Also Known As TextView -->
+        <TextView
+            android:id="@+id/also_known_tv"
+            style="@style/DataStyle" />
+
+        <!-- Ingredients Label -->
+        <TextView
+            android:id="@+id/ingredients_label"
+            style="@style/LabelStyle"
+            android:text="@string/detail_ingredients_label" />
+
+        <!-- Ingredients TextView-->
+        <TextView
+            android:id="@+id/ingredients_tv"
+            style="@style/DataStyle" />
+
+        <!-- Place of Origin Label -->
+        <TextView
+            android:id="@+id/origin_label"
+            style="@style/LabelStyle"
+            android:text="@string/detail_place_of_origin_label" />
+
+        <!-- Place of Origin TextView -->
+        <TextView
+            android:id="@+id/origin_tv"
+            style="@style/DataStyle" />
+
+        <!-- Description Label -->
+        <TextView
+            android:id="@+id/description_label"
+            style="@style/LabelStyle"
+            android:text="@string/detail_description_label" />
+
+        <!-- Description TextView -->
+        <TextView
+            android:id="@+id/description_tv"
+            style="@style/DescriptionStyle" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,4 +1,4 @@
-# Sandwich Club Project - 1st Project For Android Developer Nanodegree 
+# Sandwich Club - 1st Project For Android Developer Nanodegree 
 
 ## Project Overview
 In this project, we had to complete the **Sandwich Club** app to show the details of each sandwich once it is selected. 
